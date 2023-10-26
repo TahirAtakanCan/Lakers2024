@@ -6,3 +6,19 @@
 //
 
 import Foundation
+import UIKit
+
+class Lakers {
+    
+    var name : String
+    var position : String
+    var image : UIImage
+    
+    
+    init(playerName : String , playerPosition : String , lakersImage : UIImage) {
+        name = playerName
+        position = playerPosition
+        image = lakersImage
+    }
+    
+}
